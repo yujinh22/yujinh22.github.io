@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Curriculum Vitae"
-permalink: '/files/Yujin_s_CV_Jan13_2026.pdf'
+permalink: '/files/yujin_cv.pdf'
 author_profile: true
 redirect_from:
   - /resume
