@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a 4th-year Ph.D. student in [Electrical and Computer Engineering](https://eceweb.rice.edu/) at [Rice University](https://www.rice.edu/), advised by [Prof. Guha Balakrishnan](https://profiles.rice.edu/faculty/guha-balakrishnan). I am part of the [Rice Visual Intelligence Group](https://www.guhabalakrishnan.com/people), and the [Digital Health Institute](https://www.hmrdhi.org/), and I also work closely with [Prof. Ashok Veeraraghavan](https://profiles.rice.edu/faculty/ashok-veeraraghavan) on the [Walk-through Rendering from Images of Varying Altitude](https://www.iarpa.gov/research-programs/wriva) (WRIVA) project sponsored by the Intelligence Advanced Research Projects Activity.
+Hi! I am a 4th-year Ph.D. student in [Electrical and Computer Engineering](https://eceweb.rice.edu/) at [Rice University](https://www.rice.edu/), advised by [Prof. Guha Balakrishnan](https://profiles.rice.edu/faculty/guha-balakrishnan). I am part of the [Rice Visual Intelligence Group](https://www.guhabalakrishnan.com/people), and the [Digital Health Institute](https://www.hmrdhi.org/), and I work closely with [Prof. Ashok Veeraraghavan](https://profiles.rice.edu/faculty/ashok-veeraraghavan) on the [Walk-through Rendering from Images of Varying Altitude](https://www.iarpa.gov/research-programs/wriva) (WRIVA) project sponsored by the Intelligence Advanced Research Projects Activity.
 
 My research interests encompass computer vision, deep learning, and their downstream applications. My primarily focus lies on 3D scene understanding, including generative video editing/inpainting, large-scale 3D reconstruction, and human social behavior analysis in city environments.
 
