@@ -18,7 +18,6 @@ citation: '<strong>Y. Ham</strong>, M. Michalkiewicz, G. Balakrishnan (2024). &q
 Mateusz Michalkiewicz</a><sup>1</sup>, <a href="https://www.guhabalakrishnan.com/">Guha Balakrishnan</a><sup>1,*</sup><br>
 
   <sup>1</sup>Rice University<br>
-  <sup>*</sup>Corresponding author: guha@rice.edu<br>
   <br>
 </div>
 
@@ -32,7 +31,7 @@ Mateusz Michalkiewicz</a><sup>1</sup>, <a href="https://www.guhabalakrishnan.com
   3D building reconstruction from imaging data is an important task for many applications ranging from urban planning to reconnaissance. Modern Novel View synthesis (NVS) methods like NeRF and Gaussian Splatting offer powerful techniques for developing 3D models from natural 2D imagery in an unsupervised fashion. These algorithms generally require input training views surrounding the scene of interest, which, in the case of large buildings, is typically not available across all camera elevations. In particular, the most readily available camera viewpoints at scale across most buildings are at near-ground (e.g., with mobile phones) and aerial (drones) elevations. However, due to the significant difference in viewpoint between drone and ground image sets, camera registration -- a necessary step for NVS algorithms -- fails. In this work we propose a method, DRAGON, that can take drone and ground building imagery as input and produce a 3D NVS model. The key insight of DRAGON is that intermediate elevation imagery may be extrapolated by an NVS algorithm itself in an iterative procedure with perceptual regularization, thereby bridging the visual feature gap between the two elevations and enabling registration. We compiled a semi-synthetic dataset of 9 large building scenes using Google Earth Studio, and quantitatively and qualitatively demonstrate that DRAGON can generate compelling renderings on this dataset compared to baseline strategies.
 </p>
 
-## Results
+<!-- ## Results -->
 
 
 ## Citation
