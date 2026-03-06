@@ -37,10 +37,12 @@ Mateusz Michalkiewicz</a><sup>1</sup>, <a href="https://www.guhabalakrishnan.com
 
 ## Citation
 ```bibitex
-@article{TBU,  
-  title={TBU}, 
-  author={TBU},
-  journal={TBU}, 
-  year={2024}
+@inproceedings{ham2024dragon,
+  title={Dragon: Drone and ground gaussian splatting for 3d building reconstruction},
+  author={Ham, Yujin and Michalkiewicz, Mateusz and Balakrishnan, Guha},
+  booktitle={2024 IEEE International Conference on Computational Photography (ICCP)},
+  pages={1--12},
+  year={2024},
+  organization={IEEE}
 }
 ```
