@@ -91,11 +91,17 @@ layout: default
         {{ content }}
 
         {% if page.link %}
-          <div>
-            <a href="{{ page.link }}" class="btn btn-primary" target="_blank">
-              {{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}
-            </a>
-          </div>
+
+          {% assign is_external = page.link contains "http" %}
+
+          {% if is_external %}
+            <div>
+              <a href="{{ page.link }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                {{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}
+              </a>
+            </div>
+          {% endif %}
+
         {% endif %}
       </section>
 
