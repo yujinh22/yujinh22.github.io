@@ -7,5 +7,5 @@ date: 2026-06-03
 imageurl: '/images/teaser-figure.jpg'
 paperurl: 'https://arxiv.org/pdf/2603.29036'
 conference: 'CVPR 2026'
-citation: 'TBU'
+citation: '<strong>Y. Ham</strong>, J. Kim, V. Boominathan, G. Balakrishnan (2026). &quot;Generating Humanless Environment Walkthroughs from Egocentric Walking Tour Videos&quot; <i>CVPR 2026</i>.'
 ---

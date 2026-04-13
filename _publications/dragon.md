@@ -9,7 +9,7 @@ imageurl: '/images/dragon_figure.jpg'
 # github: https://github.com/yujinh22/
 # github: [metadata]
 conference: ICCP 2024
-citation: '<strong>Y. Ham</strong>, M. Michalkiewicz, G. Balakrishnan (2024). &quot;DRAGON: Drone and Ground Gaussian Splatting for 3D Building Reconstruction&quot; <i>arXiv preprint</i> arXiv:2311.18064.'
+citation: '<strong>Y. Ham</strong>, M. Michalkiewicz, G. Balakrishnan (2024). &quot;DRAGON: Drone and Ground Gaussian Splatting for 3D Building Reconstruction&quot; <i>ICCP 2024</i>.'
 ---
 <div style="text-align:center;">
   <p style="color:gray">ICCP 2024</p>
