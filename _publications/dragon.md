@@ -1,7 +1,7 @@
 ---
 title: "DRAGON: Drone and Ground Gaussian Splatting for 3D Building Reconstruction"
 collection: publications
-link: /publication/dragon
+link: /publications/dragon
 excerpt: "A method for reconstructing 3D scenes of large buildings by integrating drone and ground-level images through iterative view synthesis in the intermediate levels."
 date: 2024-7-22
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10644903'
