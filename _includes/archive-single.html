@@ -29,16 +29,16 @@
     <!-- ========================= -->
     <!-- TITLE (FIXED LINK LOGIC) -->
     <!-- ========================= -->
+    {% assign external = post.link | strip %}
+
     <h2 class="archive__item-title" itemprop="headline">
 
-      {% assign external = post.link | default: post.paperurl %}
-
-      {% if external %}
-        <a href="{{ external }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+      {% if external != "" and external != nil %}
+        <a href="{{ external }}" target="_blank" rel="noopener noreferrer">
           {{ title }}
         </a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+        <a href="{{ post.url | relative_url }}" rel="permalink">
           {{ title }}
         </a>
       {% endif %}
