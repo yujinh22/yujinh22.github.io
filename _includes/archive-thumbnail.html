@@ -23,22 +23,27 @@
       <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
         <!-- ========================= -->
-        <!-- TITLE (FIXED LOGIC) -->
+        <!-- TITLE (ROBUST LINK LOGIC) -->
         <!-- ========================= -->
+
+        {% assign link = post.link | default: post.paperurl %}
+
+        {% if link and link contains "http" %}
+          {% assign final_url = link %}
+          {% assign external = true %}
+        {% elsif link %}
+          {% assign final_url = link | relative_url %}
+          {% assign external = false %}
+        {% else %}
+          {% assign final_url = post.url | relative_url %}
+          {% assign external = false %}
+        {% endif %}
+
         <h2 class="archive__item-title-v2" itemprop="headline">
-
-          {% assign external = post.link | default: post.paperurl %}
-
-          {% if external %}
-            <a href="{{ external }}" target="_blank" rel="noopener noreferrer">
-              {{ title }}
-            </a>
-          {% else %}
-            <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-              {{ title }}
-            </a>
-          {% endif %}
-
+          <a href="{{ final_url }}"
+             {% if external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+            {{ title }}
+          </a>
         </h2>
 
         {% if post.read_time %}
@@ -85,6 +90,9 @@
           </p>
         {% endif %}
 
+        <!-- ========================= -->
+        <!-- EXCERPT -->
+        <!-- ========================= -->
         {% if post.excerpt and site.read_more != 'enabled' %}
           <p class="archive__item-excerpt" itemprop="description">
             {{ post.excerpt | markdownify }}
@@ -94,13 +102,13 @@
           <p class="archive__item-excerpt" itemprop="description">
             {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
             <strong>
-              <a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a>
+              <a href="{{ post.url | relative_url }}" rel="permalink"> Read more</a>
             </strong>
           </p>
         {% endif %}
 
         <!-- ========================= -->
-        <!-- ICON LINKS (UNCHANGED BUT SAFE) -->
+        <!-- ICON LINKS -->
         <!-- ========================= -->
         <p>
           {% if post.citation %}
@@ -110,25 +118,25 @@
           <br>
 
           {% if post.link %}
-            <a href="{{ post.link }}" target="_blank">
+            <a href="{{ post.link }}" target="_blank" rel="noopener noreferrer">
               <i class="fas fa-fw fa-link zoom"></i>
             </a>
           {% endif %}
 
           {% if post.paperurl %}
-            <a href="{{ post.paperurl }}" target="_blank">
+            <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">
               <i class="fas fa-fw fa-file-pdf zoom"></i>
             </a>
           {% endif %}
 
           {% if post.code %}
-            <a href="{{ post.code }}" target="_blank">
+            <a href="{{ post.code }}" target="_blank" rel="noopener noreferrer">
               <i class="fas fa-fw fa-code zoom"></i>
             </a>
           {% endif %}
 
           {% if post.github %}
-            <a href="{{ post.github }}" target="_blank">
+            <a href="{{ post.github }}" target="_blank" rel="noopener noreferrer">
               <i class="fab fa-fw fa-github zoom"></i>
             </a>
           {% endif %}
