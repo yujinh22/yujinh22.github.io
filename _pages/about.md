@@ -16,6 +16,7 @@ Before joining Rice, I completed my B.S and M.S. in [Electrical and Computer Eng
 
 
 ## Updates
+* [Generating Humanless Environment Walkthroughs from Egocentric Walking Tour Videos](https://crowd-eraser.github.io/) accepted at CVPR 2026. Excited to see y’all at Denver!
 * I will be presenting our new paper [DRAGON](https://yujinh22.github.io/publication/dragon) at ICCP 2024 in Switzerland!
 * I received the [ICCP 2024 Student Travel Award](https://iccp-conference.org/iccp2024/student-travel-award/)!
 
