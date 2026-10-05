@@ -10,7 +10,7 @@ redirect_from:
 
 Hi! I am a 5th-year Ph.D. student in [Electrical and Computer Engineering](https://eceweb.rice.edu/) at [Rice University](https://www.rice.edu/), advised by [Prof. Guha Balakrishnan](https://profiles.rice.edu/faculty/guha-balakrishnan). I am part of the [Rice Visual Intelligence Group](https://www.guhabalakrishnan.com/), and the [Digital Health Institute](https://www.hmrdhi.org/), and I work closely with [Prof. Ashok Veeraraghavan](https://profiles.rice.edu/faculty/ashok-veeraraghavan) on the [Walk-through Rendering from Images of Varying Altitude](https://www.iarpa.gov/research-programs/wriva) (WRIVA) project sponsored by the Intelligence Advanced Research Projects Activity.
 
-My research interests encompass computer vision and deep learning, with a focuses on generative video editing, 3D/4D scene reconstruction, and egocentric visual data.
+My research interests encompass computer vision and deep learning, with a focus on generative video editing, 3D/4D scene reconstruction, and egocentric visual data.
 
 Before joining Rice, I completed my B.S and M.S. in [Electrical and Computer Engineering](https://eceweb.rice.edu/) at [Ewha Womans [sic] University](https://www.ewha.ac.kr/ewhaen/index.do). My master's thesis concerned quality-adaptive compression artifact removal by exploiting domain adaptation, under the supervision of [Prof. Jewon Kang](https://sites.google.com/view/icplab-ewha). Outside of research and academia, I enjoy camping, hiking, and bouldering.
 
